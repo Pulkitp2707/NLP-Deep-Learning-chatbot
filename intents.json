@@ -1,0 +1,59 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "How may I help you today?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day, get well soon", "Bye! Get well soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "Always there to help"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you find your doctor", "I can help you find the consulting room, please tell me about you disease", "I can tell you about your consultaion chamber and where you can find your doctor, can I have a few details about your illness", "I can help you find the right doctor, do you mind sharing a bit about your illness?"],
+         "context": [""]
+        },
+        {"tag": "Dialysis",
+         "patterns": ["I have to get my dialysis done", "Find me the dialysis section", "Give me the location of the Dialysis section", "Where is the dialysis room?", "Where can I find my dialysis doctor?" ],
+         "responses": ["You may proceed to the 5th floor in tower block, your room no. is 2 and department no. is 251, have a pleasant day!"],
+         "context": [""]
+        },
+        {"tag": "MRI",
+         "patterns": ["I have an appointment for the MRI", "I have to get my MRI done today", "Where can I get my MRI done?"],
+         "responses": ["You may safely proceed to the MRI Scan depatment on the ground floor in the MRI block, your room no. is 0 and your department no. is 350. Have a safe scan"],
+         "context": [""]
+        },
+        {"tag": "CT",
+         "patterns": ["I had a heart attack, need to get my CT Scan done", "I had seizures, recommended a CT scan", "I had a cardiac arrest need to get a CT scan done", "need to get a routine CT scan"],
+         "responses": ["You can procced to the CT block and on ground floor room no. 0 is where you can get your scan done, get well soon!"],
+         "context": [""]
+        },
+        {"tag": "Nephrology",
+         "patterns": ["I have kidney stones, where can I meet my doctor?", "I need to give a urine sample", "my urea test is due today"],
+         "responses": ["You can move to the Nephrology unit in the tower block at 5th floor, your room no. is 2, have a good day ahead!"],
+         "context": [""]
+        },
+        {"tag": "Neurology",
+         "patterns": ["I have a severe headache", "Find me a neurologist", "I had fits, where can I meet a doctor", "I had a stroke, where should I go?", "need a neurologist" ],
+         "responses": ["Please proceed to department no. 245, tower  block 4th floor, your doctor is in room no. 5"],
+         "context": [""]
+        },
+        {"tag": "Cardiology",
+         "patterns": ["I have chest pain.", "I have a high BP", "I have a low BP", "I am feeling dizzy", "I have difficulty in breathing", "where can I meet a cardiologist", "where is the heart doctor"],
+         "responses": ["Proceed to 1st floor on tower block, Cardiology room is room no. 3"],
+         "context": [""]
+        }
+       
+   ]
+}
